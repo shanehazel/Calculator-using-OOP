@@ -1,9 +1,13 @@
 # pseudocode 
 
 # class UserInterface
+class UserInterface:
 
     # def input_user
+    def input_user(self):
+        num1 = float(input("\033[3;34;40m Enter number: "))
         # return input
+        return num1
 
     # def print_sum
         # print sum
