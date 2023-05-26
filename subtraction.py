@@ -2,5 +2,5 @@
 
 # class Subtraction
 
-    # def print_diff
+    # def subract
         # return diff

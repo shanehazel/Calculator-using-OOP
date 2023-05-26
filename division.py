@@ -2,5 +2,5 @@
 
 # class Division
 
-    # def print_quotient
+    # def divide
         # return quotient

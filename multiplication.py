@@ -2,5 +2,5 @@
 
 # class Multiplication
 
-    # def print_product
+    # def multiply
         # return product

@@ -2,5 +2,5 @@
 
 # class Addtion
 
-    # def print_sum
+    # def add
         # return sum
