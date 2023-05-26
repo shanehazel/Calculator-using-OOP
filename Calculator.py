@@ -42,3 +42,6 @@ while True:
         inter.print_product(product)
     elif opt.lower() == "division":
         inter.print_quotient(quotient)
+    
+    if not inter.retry():
+        break
