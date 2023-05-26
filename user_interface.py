@@ -30,7 +30,9 @@ class UserInterface:
         print("\033[1;32;40m Your number is", "\033[1;33;40m ==========     " + str(product1) + "!" + "\033[1;33;40m     ==========")
 
     # def print_quotient
+    def print_quotient(self, quotient1):
         # print quotient
+        print("\033[1;32;40m Your number is", "\033[1;33;40m ==========     " + str(quotient1) + "!" + "\033[1;33;40m     ==========")
 
     # def retry
         # if "yes" return True
