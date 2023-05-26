@@ -4,6 +4,7 @@
 from user_interface import UserInterface
 from addition import Addition
 from subtraction import Subtraction
+from multiplication import Multiplication
 
 # start loop
 while True:
@@ -12,6 +13,7 @@ while True:
     inter = UserInterface()
     sum = Addition()
     diff = Subtraction()
+    product = Multiplication()
 
     # start
 
@@ -26,9 +28,12 @@ while True:
     # call methods
     sum = sum.add(num1, num2)
     diff = diff.subtract(num1, num2)
+    product = product.multiply(num1, num2)
 
     # print methods
     if opt.lower() == "addition":
         inter.print_sum(sum)
     elif opt.lower() == "subtraction": 
         inter.print_diff(diff)
+    elif opt.lower() == "multiplication":
+        inter.print_product(product)

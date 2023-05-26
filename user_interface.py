@@ -25,7 +25,9 @@ class UserInterface:
         print("\033[1;32;40m Your number is", "\033[1;33;40m ==========     " + str(diff1) + "!" + "\033[1;33;40m     ==========")
 
     # def print_product
+    def print_product(self, product1):
         # print product
+        print("\033[1;32;40m Your number is", "\033[1;33;40m ==========     " + str(product1) + "!" + "\033[1;33;40m     ==========")
 
     # def print_quotient
         # print quotient
